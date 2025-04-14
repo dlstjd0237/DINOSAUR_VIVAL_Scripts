@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Work/Baek/11_UIToolkits/Title/Title.uss?fileID=7433441132597879392&amp;guid=654643bd75c6b134bb63b434ae92d7dc&amp;type=3#Title" />
+    <ui:VisualElement name="contain-box" class="contain-box" style="transition-duration: 1.5s;">
+        <ui:Label tabindex="-1" text="WINNER" parse-escape-sequences="true" display-tooltip-when-elided="true" name="icon-label" class="icon-label" style="transition-duration: 2.6s; transition-property: all;" />
+        <ui:Label tabindex="-1" text="PRESENTS[WINNER]" parse-escape-sequences="true" display-tooltip-when-elided="true" name="presents-label" class="presents-label" style="transition-duration: 2.5s; -unity-font: url(&apos;project://database/Assets/Work/Baek/08_Fonts/HeirofLightBold.ttf?fileID=12800000&amp;guid=5d0887fb51487c446936e0b158ac35df&amp;type=3#HeirofLightBold&apos;); -unity-font-definition: initial;" />
+        <ui:Label tabindex="-1" text="a game by [김현준, 박정호, 백인성, 이준성, 유태희]" parse-escape-sequences="true" display-tooltip-when-elided="true" name="agameby-label" class="agameby-label" style="transition-duration: 2.5s; -unity-font: url(&apos;project://database/Assets/Work/Baek/08_Fonts/HeirofLightBold.ttf?fileID=12800000&amp;guid=5d0887fb51487c446936e0b158ac35df&amp;type=3#HeirofLightBold&apos;);" />
+    </ui:VisualElement>
+</ui:UXML>

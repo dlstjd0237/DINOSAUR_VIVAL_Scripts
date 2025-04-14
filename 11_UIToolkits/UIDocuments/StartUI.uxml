@@ -1,0 +1,34 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="charcontain-box" src="project://database/Assets/Work/Baek/11_UIToolkits/Char/charcontain-box.uxml?fileID=9197481963319205126&amp;guid=98aeb6e822b94eb44a138a9d1d55f2ab&amp;type=3#charcontain-box" />
+    <Style src="project://database/Assets/Work/Baek/11_UIToolkits/Classs/StartUI.uss?fileID=7433441132597879392&amp;guid=96524511687998740b447a92313e6c36&amp;type=3#StartUI" />
+    <ui:VisualElement name="visualcontain-box" picking-mode="Ignore" class="visualcontain-box" style="flex-grow: 0; transition-duration: 0.4s;">
+        <ui:Instance template="charcontain-box" name="charcontain-box" />
+    </ui:VisualElement>
+    <ui:VisualElement name="maincontain-box" class="maincontain-box" style="transition-duration: 0.4s;">
+        <ui:VisualElement name="leftbarcontain-box" class="leftbarcontain-box" style="transition-duration: 0.4s; display: flex;">
+            <ui:VisualElement name="iconcontain-box" class="iconcontain-box" style="background-image: none; -unity-background-scale-mode: scale-to-fit; margin-top: 0; height: 40%;" />
+            <ui:VisualElement name="buttonscontain-box" class="buttonscontain-box" style="flex-grow: 1; height: 70%; width: 100%;">
+                <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="playbutton-button" class="button" style="transition-duration: 0.2s;" />
+                <ui:Button text="Option" parse-escape-sequences="true" display-tooltip-when-elided="true" name="option-button" enable-rich-text="true" class="button" style="transition-duration: 0.2s;" />
+                <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="exit-button" class="button" style="transition-duration: 0.2s;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="optioncontain-box" class="leftbarcontain-box on" style="transition-duration: 0.4s; display: flex;">
+            <ui:Label tabindex="-1" text="Option" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 17%; color: rgb(255, 255, 255); -unity-text-align: middle-center; font-size: 127px; -unity-font-style: bold;" />
+            <ui:VisualElement name="slidercontain-box" class="buttonscontain-box" style="flex-grow: 1; height: 70%; width: 100%;">
+                <ui:Slider picking-mode="Ignore" label="Master" value="0.5" high-value="1" name="masterslider-slider" low-value="0.01" class="masterslider-slider" />
+                <ui:Slider picking-mode="Ignore" label="Music" value="0.5" high-value="1" name="musicslider-slider" low-value="0.01" class="masterslider-slider" />
+                <ui:Slider picking-mode="Ignore" label="SFX" value="0.5" high-value="1" name="sfxslider-slider" low-value="0.01" class="masterslider-slider" />
+            </ui:VisualElement>
+            <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="exitbutton-button" class="button" style="transition-duration: 0.2s; margin-bottom: 13px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="scenecontain-box" class="scenecontain-box">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Leftarrow-button" class="arrow-button" style="background-image: url(&apos;project://database/Assets/Work/Baek/02_Sprites/Modern%20GDR%20-%20Free%20icons%20pack/00_Atlas/BrightIcons.png?fileID=285396403&amp;guid=132358e9bf26b60458b731bf001e31db&amp;type=3#Rewind_Bright&apos;); transition-duration: 0.1s;" />
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Rightarrow-button" class="arrow-button" style="background-image: url(&apos;project://database/Assets/Work/Baek/02_Sprites/Modern%20GDR%20-%20Free%20icons%20pack/00_Atlas/BrightIcons.png?fileID=1386808307&amp;guid=132358e9bf26b60458b731bf001e31db&amp;type=3#Skip_Bright&apos;); transition-duration: 0.1s;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="labelcontain-label" class="labelcontain-label" style="transition-duration: 0.2s;">
+            <ui:Label tabindex="-1" text="카르카로돈토사우루스" parse-escape-sequences="true" display-tooltip-when-elided="true" name="statone-label" class="statone-Label" />
+            <ui:Label tabindex="-1" text="체력 : 17\n데미지 : 2\n스테미너 : 50" parse-escape-sequences="true" display-tooltip-when-elided="true" name="stattwo-label" class="stattwo-Label" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

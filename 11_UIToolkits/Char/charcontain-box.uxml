@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="charcontain-box" class="charcontain-box">
+        <ui:VisualElement name="chariconcontain-box" class="chariconcontain-box" style="width: 650px; height: 650px;" />
+    </ui:VisualElement>
+</ui:UXML>

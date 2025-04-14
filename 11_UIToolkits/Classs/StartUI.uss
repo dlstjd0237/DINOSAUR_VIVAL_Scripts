@@ -1,0 +1,201 @@
+.leftbarcontain-box {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.95);
+    width: 25%;
+    height: 100%;
+    border-right-width: 2px;
+    border-left-color: rgba(255, 255, 255, 0.59);
+    border-right-color: rgba(255, 255, 255, 0.59);
+    border-top-color: rgba(255, 255, 255, 0.59);
+    border-bottom-color: rgba(255, 255, 255, 0.59);
+    position: absolute;
+    align-items: center;
+}
+
+.maincontain-box {
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+}
+
+.buttonscontain-box {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-around;
+    align-self: auto;
+}
+
+.iconcontain-box {
+    flex-grow: 0;
+    background-image: url('project://database/Assets/Work/Park/99.Utilities/Loading%20Screen%20Studio/Textures/Spinners/Glowing%20Triad/1.png?fileID=2800000&guid=01b3079c2f955c249ac56478b939ed7e&type=3#1');
+    -unity-background-scale-mode: scale-and-crop;
+    width: 100%;
+    height: 30%;
+    margin-top: 80px;
+}
+
+.button {
+    font-size: 83px;
+    -unity-text-align: middle-center;
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom-width: 2px;
+    padding-bottom: -5px;
+    -unity-font-definition: initial;
+    -unity-font: resource('BebasKai-Regular');
+}
+
+.button:hover {
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-width: 2px;
+}
+
+.leftbarcontain-box.on {
+    margin-left: -531px;
+    opacity: 0;
+}
+
+.masterslider-slider {
+    background-color: rgba(0, 0, 0, 0);
+    width: 440px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-left;
+    font-size: 37px;
+    flex-direction: column;
+    border-bottom-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-width: 3px;
+    align-self: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    overflow: visible;
+    visibility: visible;
+    -unity-font: resource('BebasKai-Regular');
+    -unity-font-definition: initial;
+}
+
+.masterslider-slider:hover {
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-width: 3px;
+}
+
+.scenecontain-box {
+    width: 1300px;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: -86px;
+    margin-right: 0;
+    justify-content: space-between;
+    margin-left: 549px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.arrow-button {
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    width: 100px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+}
+
+.arrow-button:hover {
+    -unity-background-image-tint-color: rgb(95, 95, 95);
+    scale: 1.05 1.05;
+}
+
+.visualcontain-box {
+    background-color: rgba(255, 255, 255, 0);
+    width: 4000px;
+    height: 760px;
+    position: absolute;
+    margin-left: 0;
+    margin-top: 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.charcontain-box {
+    width: 800px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.chariconcontain-box {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 80%;
+}
+
+.statone-Label {
+    position: absolute;
+    font-size: 75px;
+    margin-left: 0;
+    margin-top: 0;
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/Work/Kim/Font/GapyeongHanseokbongR.ttf?fileID=12800000&guid=84d7ff05ea5519d4185b609c893b9f3f&type=3#GapyeongHanseokbongR');
+    -unity-font-style: bold;
+    color: rgb(255, 176, 71);
+    -unity-text-outline-width: 4px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    left: 600px;
+    top: 680px;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(255, 255, 255);
+    padding-bottom: -22px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    -unity-text-align: upper-left;
+}
+
+.stattwo-Label {
+    position: absolute;
+    font-size: 75px;
+    margin-left: 0;
+    margin-top: 0;
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/Work/Kim/Font/GapyeongHanseokbongR.ttf?fileID=12800000&guid=84d7ff05ea5519d4185b609c893b9f3f&type=3#GapyeongHanseokbongR');
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-width: 4px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    left: 600px;
+    top: 800px;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    -unity-paragraph-spacing: -31px;
+    -unity-text-align: upper-left;
+}
+
+.labelcontain-label {
+    position: absolute;
+}
+
+.labelcontain-label.on {
+    opacity: 0;
+}
+
+.visualcontain-box.on {
+    opacity: 0;
+}
+
+.maincontain-box.on {
+    opacity: 0;
+}

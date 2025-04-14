@@ -1,0 +1,77 @@
+.icon-label {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 588px;
+    top: 388px;
+    -unity-text-align: middle-center;
+    font-size: 179px;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(255, 255, 255);
+    opacity: 0;
+}
+
+.contain-box {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+}
+
+.icon-label.on {
+    scale: 1.2 1.2;
+    opacity: 1;
+}
+
+.icon-label.on.off {
+    opacity: 0;
+}
+
+.agameby-label {
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    font-size: 76px;
+    -unity-font: url('project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#LegacyRuntime');
+    -unity-font-definition: initial;
+    -unity-font-style: bold;
+    top: 747px;
+    left: -330px;
+    opacity: 0;
+}
+
+.agameby-label.on {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    left: 0;
+    top: 712px;
+}
+
+.agameby-label.on.off {
+    opacity: 0;
+    left: 216px;
+}
+
+.presents-label {
+    opacity: 0;
+    font-size: 153px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    top: 614px;
+    left: 765px;
+    position: absolute;
+}
+
+.presents-label.on {
+    opacity: 1;
+    top: 544px;
+    left: 197px;
+}
+
+.presents-label.on.off {
+    opacity: 0;
+    left: -430px;
+    top: 578px;
+}
+
+.contain-box.on {
+    opacity: 0;
+    visibility: visible;
+}

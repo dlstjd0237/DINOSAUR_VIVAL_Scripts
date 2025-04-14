@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Work/Baek/11_UIToolkits/Classs/StartUI.uss?fileID=7433441132597879392&amp;guid=96524511687998740b447a92313e6c36&amp;type=3#StartUI" />
+    <ui:VisualElement name="maincontain-box" class="maincontain-box" style="flex-direction: row;">
+        <ui:VisualElement name="optioncontain-box" class="leftbarcontain-box on" style="transition-duration: 0.4s; display: flex;">
+            <ui:Label tabindex="-1" text="Option" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" style="height: 17%; color: rgb(255, 255, 255); -unity-text-align: middle-center; font-size: 127px; -unity-font-style: bold;" />
+            <ui:VisualElement name="slidercontain-box" class="buttonscontain-box" style="flex-grow: 1; height: 70%; width: 100%;">
+                <ui:Slider picking-mode="Ignore" label="Master" value="0.5" high-value="1" name="masterslider-slider" low-value="0.01" class="masterslider-slider" />
+                <ui:Slider picking-mode="Ignore" label="Music" value="0.5" high-value="1" name="musicslider-slider" low-value="0.01" class="masterslider-slider" />
+                <ui:Slider picking-mode="Ignore" label="SFX" value="0.5" high-value="1" name="sfxslider-slider" low-value="0.01" class="masterslider-slider" />
+            </ui:VisualElement>
+            <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="exitbutton-button" class="button" style="transition-duration: 0.2s; margin-bottom: 13px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="menuecontain-box" class="leftbarcontain-box on" style="transition-duration: 0.4s; display: flex;">
+            <ui:Label tabindex="-1" text="Pause" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" style="height: 20%; color: rgb(255, 255, 255); -unity-text-align: middle-center; font-size: 137px; -unity-font-style: bold; border-top-width: 0; border-right-width: 0; border-bottom-width: 3px; border-left-width: 0; border-bottom-color: rgb(255, 255, 255); -unity-text-outline-color: rgb(38, 67, 48); -unity-text-outline-width: 3px;" />
+            <ui:VisualElement name="buttoncontain-box" class="buttonscontain-box" style="flex-grow: 1;">
+                <ui:Button text="Continue" parse-escape-sequences="true" display-tooltip-when-elided="true" name="continue-button" class="button" style="transition-duration: 0.2s; margin-bottom: 13px;" />
+                <ui:Button text="Option" parse-escape-sequences="true" display-tooltip-when-elided="true" name="option-button" class="button" style="transition-duration: 0.2s; margin-bottom: 13px;" />
+                <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="exit-button" class="button" style="transition-duration: 0.2s; margin-bottom: 13px;" />
+                <ui:VisualElement style="flex-grow: 0; width: 100%; height: auto; justify-content: space-around; overflow: visible; visibility: hidden; display: none;">
+                    <ui:Button text="Level Up" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="true" name="leveup-button" style="font-size: 47px;" />
+                    <ui:Button text="HappyEnding" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ending-button" style="font-size: 47px;" />
+                    <ui:Button text="BadEnding" parse-escape-sequences="true" display-tooltip-when-elided="true" name="endingtwo-button" style="font-size: 47px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="scenecontain-box" picking-mode="Ignore" style="flex-grow: 1; display: none;" />
+    </ui:VisualElement>
+</ui:UXML>
